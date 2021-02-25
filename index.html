@@ -19,7 +19,13 @@
     }
     h1{
       color:gold;
-    
+      
+      user-select: none; /* supported by Chrome and Opera */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+
       text-align: center;      
     }
     .banner{
@@ -69,8 +75,8 @@
 
     </div>
   </div>
-  <div class="col-12 banner ">
-    <h1 class="mt-5">Effi Rodin - A lifetime learner</h1>
+  <div class="col-12  col-md-4 banner ">
+    <h1 class="">A lifetime learner</h1>
   </div>
 
   <!-- Bootstrap core JavaScript -->
